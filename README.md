@@ -23,6 +23,20 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+## Building the Executables (Optional)
+
+If you want to build standalone `.exe` files (so you can run the application without Python installed), you can use PyInstaller with the provided configuration files:
+
+```powershell
+# Build the CLI executable
+pyinstaller file-organizer.spec
+
+# Build the GUI executable
+pyinstaller file-organizer-gui.spec
+```
+
+The generated executables will be placed in a new `dist/` folder. The temporary `build/` folder will also be created during this process.
+
 ## Usage
 
 ### CLI Version
