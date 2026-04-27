@@ -25,7 +25,12 @@ pip install -r requirements.txt
 
 ## Building the Executables (Optional)
 
-If you want to build standalone `.exe` files (so you can run the application without Python installed), you can use PyInstaller with the provided configuration files:
+To easily build standalone `.exe` files without manually setting up a Python environment, you can simply run the provided batch script:
+
+1. Double-click the `build.bat` file in the project folder.
+2. The script will automatically create a virtual environment, install dependencies, and build the executables.
+
+Alternatively, if you prefer to build them manually:
 
 ```powershell
 # Build the CLI executable
