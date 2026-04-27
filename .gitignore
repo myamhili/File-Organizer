@@ -12,7 +12,6 @@ ENV/
 # Build outputs
 build/
 dist/
-*.spec
 
 # IDE
 .vscode/
