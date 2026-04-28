@@ -29,6 +29,7 @@ To easily build standalone `.exe` files without manually setting up a Python env
 
 1. Double-click the `build.bat` file in the project folder.
 2. The script will automatically create a virtual environment, install dependencies, and build the executables.
+3. If it randomly shuts down, try running it again!
 
 Alternatively, if you prefer to build them manually:
 
